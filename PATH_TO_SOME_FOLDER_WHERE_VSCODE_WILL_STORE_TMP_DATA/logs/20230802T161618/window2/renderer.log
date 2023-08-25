@@ -1,0 +1,46 @@
+2023-08-02 16:24:00.891 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-08-02 16:24:01.176 [error] Offline: Offline: Offline
+    at y.onerror (vscode-file://vscode-app/c:/Users/mirza/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:77:1328)
+2023-08-02 16:24:04.101 [info] [perf] Render performance baseline is 214ms
+2023-08-02 16:24:33.000 [error] Offline: Offline: Offline
+    at y.onerror (vscode-file://vscode-app/c:/Users/mirza/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:77:1328)
+2023-08-02 16:24:37.194 [info] [perf] Render performance baseline is 95ms
+2023-08-02 16:24:37.776 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-08-02 16:24:41.691 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-08-02 16:24:43.523 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-08-02 16:24:48.700 [error] Pending response rejected since connection got disposed: Error: Pending response rejected since connection got disposed
+	at Object.dispose (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:412834)
+	at Object.dispose (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:464505)
+	at v.handleConnectionClosed (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:464783)
+	at v.handleConnectionClosed (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:620102)
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:464593
+	at i.invoke (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:414543)
+	at a.fire (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:415308)
+	at J (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:401190)
+	at i.invoke (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:414543)
+	at a.fire (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:415308)
+	at d.fireClose (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:423120)
+	at ChildProcess.<anonymous> (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:434091)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1121:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2023-08-02 16:24:50.785 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406156
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406450
+	at Immediate.<anonymous> (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406812)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-02 16:24:53.421 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406156
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406450
+	at Immediate.<anonymous> (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406812)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-02 16:24:54.521 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406156
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406450
+	at Immediate.<anonymous> (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406812)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-08-02 16:25:25.810 [error] Unhandled method getIdAtPosition: Error: Unhandled method getIdAtPosition
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406156
+	at c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406450
+	at Immediate.<anonymous> (c:\Users\mirza\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.7\dist\extension.js:2:406812)
+	at process.processImmediate (node:internal/timers:466:21)

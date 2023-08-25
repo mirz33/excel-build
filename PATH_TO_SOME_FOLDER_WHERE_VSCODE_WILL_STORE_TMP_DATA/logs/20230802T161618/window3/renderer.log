@@ -1,0 +1,15 @@
+2023-08-02 16:43:28.935 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-08-02 16:43:29.309 [error] Offline: Offline: Offline
+    at y.onerror (vscode-file://vscode-app/c:/Users/mirza/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:77:1328)
+2023-08-02 16:43:31.283 [info] [perf] Render performance baseline is 82ms
+2023-08-02 16:43:41.392 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-08-02 16:43:41.513 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-08-02 16:44:35.717 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-08-02 16:44:36.319 [error] Offline: Offline: Offline
+    at y.onerror (vscode-file://vscode-app/c:/Users/mirza/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:77:1328)
+2023-08-02 16:44:44.077 [info] [perf] Render performance baseline is 126ms
+2023-08-02 16:44:45.784 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-08-02 16:44:46.994 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-08-02 16:44:51.388 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-08-02 16:44:53.230 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-08-02 16:48:28.949 [error] [Extension Host] [31mError: listen EADDRINUSE: address already in use 0.0.0.0:5500[39m

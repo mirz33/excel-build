@@ -1,0 +1,33 @@
+2023-08-02 16:43:36.091 [info] Log level: Info
+2023-08-02 16:43:36.091 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:43:36.178 [info] Using git "2.41.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:44:40.636 [info] Log level: Info
+2023-08-02 16:44:40.636 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:44:47.068 [info] Using git "2.41.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:44:54.448 [info] > git rev-parse --show-toplevel [7358ms]
+2023-08-02 16:44:55.499 [info] > git rev-parse --git-dir --git-common-dir [899ms]
+2023-08-02 16:44:55.544 [info] Open repository: d:\tinker
+2023-08-02 16:44:56.215 [info] > git rev-parse --show-toplevel [655ms]
+2023-08-02 16:44:56.279 [info] > git config --get commit.template [676ms]
+2023-08-02 16:44:56.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [1028ms]
+2023-08-02 16:44:56.818 [info] > git check-ignore -v -z --stdin [656ms]
+2023-08-02 16:44:56.829 [info] > git ls-files --stage -- D:\tinker\style.css [552ms]
+2023-08-02 16:44:56.885 [info] > git status -z -uall [220ms]
+2023-08-02 16:44:57.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [169ms]
+2023-08-02 16:44:57.106 [info] > git config --get commit.template [185ms]
+2023-08-02 16:44:57.145 [info] > git cat-file -s f5aee3dd1f7910670a6fff98d024e2bb09f0cd3b [291ms]
+2023-08-02 16:44:57.156 [info] > git show --textconv :style.css [890ms]
+2023-08-02 16:44:57.242 [info] > git status -z -uall [128ms]
+2023-08-02 16:45:11.787 [info] > git show --textconv :README.md [220ms]
+2023-08-02 16:45:11.862 [info] > git ls-files --stage -- D:\tinker\README.md [285ms]
+2023-08-02 16:45:11.963 [info] > git cat-file -s 9260d45d3931d48e7bbfab18fe69e0aaf4844291 [92ms]
+2023-08-02 16:45:14.891 [info] > git ls-files --stage -- D:\tinker\index.html [396ms]
+2023-08-02 16:45:14.966 [info] > git show --textconv :index.html [499ms]
+2023-08-02 16:45:15.280 [info] > git cat-file -s d3a2016f84a5f264a4e88a49e2d1fd36f25f7489 [315ms]
+2023-08-02 16:46:17.292 [info] > git show --textconv :style.css [344ms]
+2023-08-02 16:46:17.374 [info] > git ls-files --stage -- D:\tinker\style.css [392ms]
+2023-08-02 16:46:17.502 [info] > git cat-file -s f5aee3dd1f7910670a6fff98d024e2bb09f0cd3b [116ms]
+2023-08-02 16:48:31.608 [info] > git check-ignore -v -z --stdin [250ms]
+2023-08-02 16:48:31.900 [info] > git config --get commit.template [108ms]
+2023-08-02 16:48:32.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [165ms]
+2023-08-02 16:48:32.189 [info] > git status -z -uall [106ms]

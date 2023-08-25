@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="init()">
+    <nav>
+        <div class="logo">PERFOMANCE DASHBOARD</div>
+        <div class="items">
+            
+            <ul>
+                <li class="item">Home</li>
+                <li class="item">Login</li>
+                <li class="item">About</li>
+                <li class="item">Contact</li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="contentWrapper">
+            <div class="content">
+                <h1>WELCOME TO <br> PERFOMANCE MATRIX DASHBOARD</h1>
+                <p class="desc">Excel sheet's will be uploaded here by daily automated!</p>
+                <h2 class="highligts">Here you can <span class="changes" id="changes">upload</span></h2>
+                <p1 id="lastUpdated" style=" font-size: small;"></p1>
+            </div>
+        </div>
+        <div class="imageContainer">
+            <img src="./images/huhuhu.jpg" alt="cannot laod image" sizes="" srcset="">
+        </div>
+    </section>
+    <section id="services">
+        <div class="title"><span>SERVICES</span></div>
+
+        <div class="cardContainer">
+            <div class="card">
+                <div class="cardHead">
+                    UPLOAD
+                </div>
+                <div class="cardBody">
+                   
+                    <p>upload here</p>
+                    <form method="POST" id="form">
+                        <input type="file" id="file" name="" id="">
+                        <button id="submit" type="submit" onclick="addExcel()">Append</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardHead">
+                    FILES
+                </div>
+                <div class="cardBody">
+                    <ul id="fileList">
+                
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardHead">
+                    FILTERS
+                </div>
+                <div class="cardBody">
+                    <p>By date : </p>
+                    <input type="date" id="datetracker">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contents">
+        <div id="excelContainer"></div>
+    </section>
+
+>
+     <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>

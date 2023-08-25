@@ -1,0 +1,33 @@
+2023-08-02 16:24:07.105 [info] Log level: Info
+2023-08-02 16:24:07.105 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:24:07.830 [info] Using git "2.41.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:24:46.530 [info] Log level: Info
+2023-08-02 16:24:46.531 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:24:46.665 [info] Using git "2.41.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2023-08-02 16:24:47.619 [info] > git rev-parse --show-toplevel [930ms]
+2023-08-02 16:24:48.072 [info] > git rev-parse --git-dir --git-common-dir [440ms]
+2023-08-02 16:24:48.091 [info] Open repository: d:\excelmanagement-1
+2023-08-02 16:24:48.383 [info] > git rev-parse --show-toplevel [271ms]
+2023-08-02 16:24:48.607 [info] > git config --get commit.template [471ms]
+2023-08-02 16:24:49.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [1021ms]
+2023-08-02 16:24:49.429 [info] > git rev-parse --show-toplevel [1032ms]
+2023-08-02 16:24:49.515 [info] > git check-ignore -v -z --stdin [729ms]
+2023-08-02 16:24:49.670 [info] > git rev-parse --show-toplevel [229ms]
+2023-08-02 16:24:49.791 [info] > git rev-parse --show-toplevel [113ms]
+2023-08-02 16:24:50.041 [info] > git ls-files --stage -- D:\excelmanagement-1\frontend\script.js [224ms]
+2023-08-02 16:24:50.320 [info] > git status -z -uall [1034ms]
+2023-08-02 16:24:50.379 [info] > git cat-file -s fc91fc36f21596e00c987162430d59cb9f314de6 [327ms]
+2023-08-02 16:24:50.380 [info] > git show --textconv :frontend/script.js [576ms]
+2023-08-02 16:24:50.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [194ms]
+2023-08-02 16:24:50.636 [info] > git config --get commit.template [288ms]
+2023-08-02 16:24:51.041 [info] > git status -z -uall [378ms]
+2023-08-02 16:29:25.474 [info] > git ls-files --stage -- D:\excelmanagement-1\frontend\frontend.css [263ms]
+2023-08-02 16:29:25.576 [info] > git show --textconv :frontend/frontend.css [376ms]
+2023-08-02 16:29:25.617 [info] > git cat-file -s da8840bd89c72e813164948ea15ae1e71277cff1 [130ms]
+2023-08-02 16:29:36.586 [info] > git ls-files --stage -- D:\excelmanagement-1\frontend\frontend.html [445ms]
+2023-08-02 16:29:36.596 [info] > git show --textconv :frontend/frontend.html [466ms]
+2023-08-02 16:29:36.742 [info] > git cat-file -s 8f9e13a032394ac4c91f390c0bfc641888c14bbb [146ms]
+2023-08-02 16:29:48.811 [info] > git show --textconv :frontend/frontend.css [363ms]
+2023-08-02 16:29:48.824 [info] > git ls-files --stage -- D:\excelmanagement-1\frontend\frontend.css [362ms]
+2023-08-02 16:29:48.942 [info] > git cat-file -s da8840bd89c72e813164948ea15ae1e71277cff1 [112ms]
+2023-08-02 16:34:26.083 [info] > git check-ignore -v -z --stdin [587ms]
